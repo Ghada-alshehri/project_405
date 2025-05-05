@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import NewsSection from "../components/NewsSection";
 
 function Home() {
   const navigate = useNavigate();
@@ -11,16 +12,15 @@ function Home() {
   return (
     <section id="home" className="section active">
       <section className="banner-wrapper"></section>
-      <div className="hero" >
- 
-     <div style={{ position: 'relative', zIndex: 1 }}>
-    <h2>Find Your Perfect Volunteer Opportunity</h2>
-    <p>Connect with organizations that need your skills and passion</p>
-    <button className="cta-button" onClick={handleBrowseClick}>
-      Browse Opportunities
-    </button>
-  </div>
-</div>
+      <div className="hero">
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <h2>Find Your Perfect Volunteer Opportunity</h2>
+          <p>Connect with organizations that need your skills and passion</p>
+          <button className="cta-button" onClick={handleBrowseClick}>
+            Browse Opportunities
+          </button>
+        </div>
+      </div>
 
       {/* Features */}
       <div className="features">
@@ -40,11 +40,15 @@ function Home() {
           <p>Earn certificates for your volunteer work</p>
         </div>
       </div>
+
+      {/* News Section */}
+      <NewsSection />
     </section>
   );
 }
 
 export default Home;
+
 
 
 
