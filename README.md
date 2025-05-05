@@ -60,11 +60,3 @@ This platform aims to make it easier for volunteers and organizations to connect
 |  Accessibility                     | Inputs, labels, alt text, clean tab order              |
 |  README.md                         | ✔ This file                                            |
 
----
-
-## 💻 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
