@@ -2,6 +2,7 @@
   "name": "unsplash-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Ghada-alshehri.github.io/Project-405",
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
     "@testing-library/dom": "^10.4.0",
