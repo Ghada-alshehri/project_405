@@ -70,8 +70,7 @@ We aim to show how every part of the project was built and how we applied the re
 
 On the **homepage**, we showcased the **key features of our volunteering platform** in a clear and engaging layout.
 We also integrated an **external API** to display the latest volunteering news, aiming to **encourage users to register and engage** by browsing relevant and inspiring content.
-![image](https://github.com/user-attachments/assets/7ddf0adf-be0c-4921-8027-38801c83dccd)
-![image](https://github.com/user-attachments/assets/687f0e6c-f328-4561-84a9-d3581aff3588)
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/003e5b32-3d4c-44ef-9578-89cbbdb434cc" />
 
 
 
