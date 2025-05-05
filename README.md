@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+#  Volunteer Hub - CPIT405 Final Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  Project Description
 
-## Available Scripts
+**Volunteer Hub** is a web application that connects volunteers with meaningful opportunities. It enables users to explore, filter, and apply for volunteering tasks through a modern, user-friendly interface.
 
-In the project directory, you can run:
+This platform aims to make it easier for volunteers and organizations to connect, using features like smart filters, Google login, and email notifications.
 
-### `npm start`
+## 🛠 Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  **Explore Opportunities**: Search and filter by title, type, skill, and payment.
+-  **Interactive Map**: Displays each opportunity’s location using Leaflet.js.
+-  **Application Form**: Modal with prefilled user info and Firebase integration.
+-  **Google & Manual Login**: Authentication through Firebase.
+-  **Email Confirmation**: Sent automatically to volunteers using EmailJS.
+-  **Contact Form**: Integrated with a PHP backend for inquiries.
+-  **Modern UI**: Responsive design using React components.
+-  **Deployment**: Live using GitHub Pages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+##  Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology        | Description                                           |
+|-------------------|-------------------------------------------------------|
+| React             | Frontend component-based development                  |
+| Firebase          | Firestore database and authentication                 |
+| Leaflet.js        | Display interactive maps for opportunity locations    |
+| EmailJS           | Send confirmation emails from frontend                |
+| PHP               | Handle and store messages from the contact form       |
+| CSS / HTML        | Layout and styling                                    |
+| JavaScript        | Form logic and dynamic rendering                      |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  File Structure Highlights
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| File                                | Purpose                                                |
+|-------------------------------------|--------------------------------------------------------|
+| `Explore.jsx`                       | Main page to display and filter volunteer roles        |
+| `Login.jsx`                         | Manual and Google-based login                          |
+| `Signup.jsx`                        | Manual signup and save to Firebase                     |
+| `VolunteerFormModal.jsx`           | Modal with form to apply to opportunities              |
+| `sendEmail.js`                      | Sends confirmation email using EmailJS                 |
+| `submit_contact.php`               | Saves contact form messages to a text file             |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📚 Course Requirements Coverage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Requirement                          | Implemented In                                         |
+|--------------------------------------|--------------------------------------------------------|
+|  HTML5                             | All React components use valid semantic HTML           |
+| External CSS                      | `App.css` + component-level styles                     |
+|  JavaScript Validation             | `Signup.jsx`, `Login.jsx`, and form input checks       |
+|  JSON Used in HTML                 | Fetched Firebase data rendered via JSX                 |
+|  Reusable Components               | Navbar, Footer, Modals, Cards                          |
+|  API using Fetch (AJAX)           | PHP backend, EmailJS, optional: LibreTranslate         |
+|  Routing                           | `react-router-dom` for navigation                      |
+|  Deployment                        | Project deployed on GitHub Pages                       |
+|  Accessibility                     | Inputs, labels, alt text, clean tab order              |
+|  README.md                         | ✔ This file                                            |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 How to Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
