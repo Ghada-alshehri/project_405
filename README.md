@@ -6,7 +6,7 @@
 
 This platform aims to make it easier for volunteers and organizations to connect, using features like smart filters, Google login, and email notifications.
 
-## 🛠 Key Features
+##  Key Features
 
 -  **Explore Opportunities**: Search and filter by title, type, skill, and payment.
 -  **Interactive Map**: Displays each opportunity’s location using Leaflet.js.
