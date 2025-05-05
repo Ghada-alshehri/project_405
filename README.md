@@ -5,6 +5,7 @@
 **Volunteer Hub** is a web application that connects volunteers with meaningful opportunities. It enables users to explore, filter, and apply for volunteering tasks through a modern, user-friendly interface.
 
 This platform aims to make it easier for volunteers and organizations to connect, using features like smart filters, Google login, and email notifications.
+![image](https://github.com/user-attachments/assets/e7bf708a-905a-4d24-b7f0-3ba73a1637fb)
 
 ##  Key Features
 
